@@ -1,0 +1,17 @@
+D:\Topmotive\Ziua4\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Application.deps.json
+D:\Topmotive\Ziua4\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Application.dll
+D:\Topmotive\Ziua4\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Application.pdb
+D:\Topmotive\Ziua4\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Domain.dll
+D:\Topmotive\Ziua4\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Domain.pdb
+D:\Topmotive\Ziua4\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.csproj.AssemblyReference.cache
+D:\Topmotive\Ziua4\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Topmotive\Ziua4\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.AssemblyInfoInputs.cache
+D:\Topmotive\Ziua4\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.AssemblyInfo.cs
+D:\Topmotive\Ziua4\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.csproj.CoreCompileInputs.cache
+D:\Topmotive\Ziua4\BookStore\BookStore.Application\obj\Debug\net8.0\BookStor.D70AE061.Up2Date
+D:\Topmotive\Ziua4\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.dll
+D:\Topmotive\Ziua4\BookStore\BookStore.Application\obj\Debug\net8.0\refint\BookStore.Application.dll
+D:\Topmotive\Ziua4\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.pdb
+D:\Topmotive\Ziua4\BookStore\BookStore.Application\obj\Debug\net8.0\ref\BookStore.Application.dll
+D:\Topmotive\Ziua4\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Data.Abstraction.dll
+D:\Topmotive\Ziua4\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Data.Abstraction.pdb

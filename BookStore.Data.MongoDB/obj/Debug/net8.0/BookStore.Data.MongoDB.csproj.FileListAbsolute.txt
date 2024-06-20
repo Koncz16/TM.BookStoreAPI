@@ -1,0 +1,17 @@
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.MongoDB\bin\Debug\net8.0\BookStore.Data.MongoDB.deps.json
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.MongoDB\bin\Debug\net8.0\BookStore.Data.MongoDB.dll
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.MongoDB\bin\Debug\net8.0\BookStore.Data.MongoDB.pdb
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.MongoDB\bin\Debug\net8.0\BookStore.Data.Abstraction.dll
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.MongoDB\bin\Debug\net8.0\BookStore.Data.Abstraction.pdb
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStore.Data.MongoDB.csproj.AssemblyReference.cache
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStore.Data.MongoDB.GeneratedMSBuildEditorConfig.editorconfig
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStore.Data.MongoDB.AssemblyInfoInputs.cache
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStore.Data.MongoDB.AssemblyInfo.cs
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStore.Data.MongoDB.csproj.CoreCompileInputs.cache
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStor.E99003B6.Up2Date
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStore.Data.MongoDB.dll
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\refint\BookStore.Data.MongoDB.dll
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\BookStore.Data.MongoDB.pdb
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.MongoDB\obj\Debug\net8.0\ref\BookStore.Data.MongoDB.dll
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.MongoDB\bin\Debug\net8.0\BookStore.Domain.dll
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.MongoDB\bin\Debug\net8.0\BookStore.Domain.pdb

@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Topmotive\\Ziua4\\BookStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1936C67-95E9-4885-A50B-E02638A4F03C}|BookStore.Repositories\\BookStore.Repositories.csproj|d:\\topmotive\\ziua4\\bookstore\\bookstore.repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1936C67-95E9-4885-A50B-E02638A4F03C}|BookStore.Repositories\\BookStore.Repositories.csproj|solutionrelative:bookstore.repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF19457-FF84-48B0-A08E-0BDA7568F430}|BookStore.Data.MongoDB\\BookStore.Data.MongoDB.csproj|d:\\topmotive\\ziua4\\bookstore\\bookstore.data.mongodb\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DF19457-FF84-48B0-A08E-0BDA7568F430}|BookStore.Data.MongoDB\\BookStore.Data.MongoDB.csproj|solutionrelative:bookstore.data.mongodb\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{664B97E7-26E0-430A-94FB-03FB65377D58}|BookStore.Application\\BookStore.Application.csproj|d:\\topmotive\\ziua4\\bookstore\\bookstore.application\\updatebook\\updatebookhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{664B97E7-26E0-430A-94FB-03FB65377D58}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\updatebook\\updatebookhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0B73822-D1DA-4AAF-A8A1-57CB982ED861}|BookStore.Data.Abstraction\\BookStore.Data.Abstraction.csproj|d:\\topmotive\\ziua4\\bookstore\\bookstore.data.abstraction\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0B73822-D1DA-4AAF-A8A1-57CB982ED861}|BookStore.Data.Abstraction\\BookStore.Data.Abstraction.csproj|solutionrelative:bookstore.data.abstraction\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0B73822-D1DA-4AAF-A8A1-57CB982ED861}|BookStore.Data.Abstraction\\BookStore.Data.Abstraction.csproj|d:\\topmotive\\ziua4\\bookstore\\bookstore.data.abstraction\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0B73822-D1DA-4AAF-A8A1-57CB982ED861}|BookStore.Data.Abstraction\\BookStore.Data.Abstraction.csproj|solutionrelative:bookstore.data.abstraction\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CFDFAD0-6D0A-4D21-88CB-65CE50068CB3}|BookStore\\BookStore.csproj|d:\\topmotive\\ziua4\\bookstore\\bookstore\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CFDFAD0-6D0A-4D21-88CB-65CE50068CB3}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{664B97E7-26E0-430A-94FB-03FB65377D58}|BookStore.Application\\BookStore.Application.csproj|d:\\topmotive\\ziua4\\bookstore\\bookstore.application\\updatebook\\updatebookvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{664B97E7-26E0-430A-94FB-03FB65377D58}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\updatebook\\updatebookvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{664B97E7-26E0-430A-94FB-03FB65377D58}|BookStore.Application\\BookStore.Application.csproj|d:\\topmotive\\ziua4\\bookstore\\bookstore.application\\updatebook\\updatebookrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{664B97E7-26E0-430A-94FB-03FB65377D58}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\updatebook\\updatebookrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{664B97E7-26E0-430A-94FB-03FB65377D58}|BookStore.Application\\BookStore.Application.csproj|d:\\topmotive\\ziua4\\bookstore\\bookstore.application\\updatebook\\updatebookresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{664B97E7-26E0-430A-94FB-03FB65377D58}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\updatebook\\updatebookresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{664B97E7-26E0-430A-94FB-03FB65377D58}|BookStore.Application\\BookStore.Application.csproj|d:\\topmotive\\ziua4\\bookstore\\bookstore.application\\insertbook\\insertbookvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{664B97E7-26E0-430A-94FB-03FB65377D58}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\insertbook\\insertbookvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 364,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Database.cs",
+              "DocumentMoniker": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Data.MongoDB\\Database.cs",
+              "RelativeDocumentMoniker": "BookStore.Data.MongoDB\\Database.cs",
+              "ToolTip": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Data.MongoDB\\Database.cs",
+              "RelativeToolTip": "BookStore.Data.MongoDB\\Database.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAiwDoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:57:04.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "BookStore\\Controllers\\BooksController.cs",
+              "ToolTip": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "BookStore\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAIwE0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:52:09.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InsertBookValidator.cs",
+              "DocumentMoniker": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Application\\InsertBook\\InsertBookValidator.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\InsertBook\\InsertBookValidator.cs",
+              "ToolTip": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Application\\InsertBook\\InsertBookValidator.cs",
+              "RelativeToolTip": "BookStore.Application\\InsertBook\\InsertBookValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:50:01.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Data.Abstraction\\IRepository.cs",
+              "RelativeDocumentMoniker": "BookStore.Data.Abstraction\\IRepository.cs",
+              "ToolTip": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Data.Abstraction\\IRepository.cs",
+              "RelativeToolTip": "BookStore.Data.Abstraction\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:49:28.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Data.Abstraction\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "BookStore.Data.Abstraction\\IBookRepository.cs",
+              "ToolTip": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Data.Abstraction\\IBookRepository.cs",
+              "RelativeToolTip": "BookStore.Data.Abstraction\\IBookRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:49:25.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateBookHandler.cs",
+              "DocumentMoniker": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Application\\UpdateBook\\UpdateBookHandler.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\UpdateBook\\UpdateBookHandler.cs",
+              "ToolTip": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Application\\UpdateBook\\UpdateBookHandler.cs",
+              "RelativeToolTip": "BookStore.Application\\UpdateBook\\UpdateBookHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:48:08.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateBookValidator.cs",
+              "DocumentMoniker": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Application\\UpdateBook\\UpdateBookValidator.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\UpdateBook\\UpdateBookValidator.cs",
+              "ToolTip": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Application\\UpdateBook\\UpdateBookValidator.cs",
+              "RelativeToolTip": "BookStore.Application\\UpdateBook\\UpdateBookValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:48:00.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateBookResponse.cs",
+              "DocumentMoniker": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Application\\UpdateBook\\UpdateBookResponse.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\UpdateBook\\UpdateBookResponse.cs",
+              "ToolTip": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Application\\UpdateBook\\UpdateBookResponse.cs",
+              "RelativeToolTip": "BookStore.Application\\UpdateBook\\UpdateBookResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:47:51.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateBookRequest.cs",
+              "DocumentMoniker": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Application\\UpdateBook\\UpdateBookRequest.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\UpdateBook\\UpdateBookRequest.cs",
+              "ToolTip": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Application\\UpdateBook\\UpdateBookRequest.cs",
+              "RelativeToolTip": "BookStore.Application\\UpdateBook\\UpdateBookRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:47:42.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "BookStore.Repositories\\BookRepository.cs",
+              "ToolTip": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Repositories\\BookRepository.cs",
+              "RelativeToolTip": "BookStore.Repositories\\BookRepository.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAqwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:43:51.136Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

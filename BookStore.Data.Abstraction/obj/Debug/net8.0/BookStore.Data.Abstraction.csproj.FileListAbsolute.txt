@@ -1,0 +1,15 @@
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.Abstraction\bin\Debug\net8.0\BookStore.Data.Abstraction.deps.json
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.Abstraction\bin\Debug\net8.0\BookStore.Data.Abstraction.dll
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.Abstraction\bin\Debug\net8.0\BookStore.Data.Abstraction.pdb
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.Abstraction\obj\Debug\net8.0\BookStore.Data.Abstraction.GeneratedMSBuildEditorConfig.editorconfig
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.Abstraction\obj\Debug\net8.0\BookStore.Data.Abstraction.AssemblyInfoInputs.cache
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.Abstraction\obj\Debug\net8.0\BookStore.Data.Abstraction.AssemblyInfo.cs
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.Abstraction\obj\Debug\net8.0\BookStore.Data.Abstraction.csproj.CoreCompileInputs.cache
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.Abstraction\obj\Debug\net8.0\BookStore.Data.Abstraction.dll
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.Abstraction\obj\Debug\net8.0\refint\BookStore.Data.Abstraction.dll
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.Abstraction\obj\Debug\net8.0\BookStore.Data.Abstraction.pdb
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.Abstraction\obj\Debug\net8.0\ref\BookStore.Data.Abstraction.dll
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.Abstraction\bin\Debug\net8.0\BookStore.Domain.dll
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.Abstraction\bin\Debug\net8.0\BookStore.Domain.pdb
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.Abstraction\obj\Debug\net8.0\BookStore.Data.Abstraction.csproj.AssemblyReference.cache
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.Abstraction\obj\Debug\net8.0\BookStor.0B24BE0B.Up2Date
