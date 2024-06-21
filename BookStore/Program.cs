@@ -3,8 +3,13 @@ using BookStore.Data.MongoDB;
 using BookStore.Repositories;
 using FluentValidation.AspNetCore;
 using MediatR;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.DataProtection.KeyManagement;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyModel;
+using Microsoft.IdentityModel.Tokens;
 using System.Reflection;
+using System.Text;
 
 internal class Program
 {
@@ -15,6 +20,27 @@ internal class Program
         Assemblies = LoadApplicationDependencies();
 
         var builder = WebApplication.CreateBuilder(args);
+
+
+        //Jwt configuration starts here
+        var jwtKey = builder.Configuration.GetSection("Jwt:Key").Get<string>();
+
+        builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+         .AddJwtBearer(options =>
+         {
+             options.TokenValidationParameters = new TokenValidationParameters
+             {
+                 ValidateIssuerSigningKey = true,
+                 ValidateIssuer = false,
+                 ValidateAudience = false,
+                 ValidateLifetime = true,
+                 IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey))
+             };
+         });
+        //Jwt configuration ends here
+
+
+
 
         builder.Services.AddFluentValidation(options =>
         {
@@ -52,7 +78,9 @@ internal class Program
         AddClasses(type => type.AssignableTo(typeof(IDatabase))).
         AsImplementedInterfaces().
         WithSingletonLifetime()
-        );    
+        );
+
+        builder.Services.AddTransient<IUserRepository, UserRepository>();
 
         var app = builder.Build();
 

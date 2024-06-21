@@ -55,7 +55,17 @@ namespace BookStore.Data.MongoDB
                     cm.SetIgnoreExtraElements(true);
                 });
             }
-
+            if (!BsonClassMap.IsClassMapRegistered(typeof(User)))
+            {
+                BsonClassMap.RegisterClassMap<User>(cm =>
+                {
+                    cm.AutoMap();
+                    cm.MapIdMember(user => user.Id)
+                      .SetIdGenerator(new StringObjectIdGenerator())
+                      .SetSerializer(new StringSerializer(BsonType.ObjectId));
+                    cm.SetIgnoreExtraElements(true);
+                });
+            }
         }
     }
 }

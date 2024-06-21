@@ -13,3 +13,4 @@ D:\Topmotive\Ziua4\BookStore\BookStore.Data.Abstraction\bin\Debug\net8.0\BookSto
 D:\Topmotive\Ziua4\BookStore\BookStore.Data.Abstraction\bin\Debug\net8.0\BookStore.Domain.pdb
 D:\Topmotive\Ziua4\BookStore\BookStore.Data.Abstraction\obj\Debug\net8.0\BookStore.Data.Abstraction.csproj.AssemblyReference.cache
 D:\Topmotive\Ziua4\BookStore\BookStore.Data.Abstraction\obj\Debug\net8.0\BookStor.0B24BE0B.Up2Date
+D:\Topmotive\Ziua4\BookStore\BookStore.Data.Abstraction\obj\Debug\net8.0\BookStore.Data.Abstraction.sourcelink.json

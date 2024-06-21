@@ -68,3 +68,12 @@ D:\Topmotive\Ziua4\BookStore\BookStore\bin\Debug\net8.0\BookStore.Data.Abstracti
 D:\Topmotive\Ziua4\BookStore\BookStore\bin\Debug\net8.0\BookStore.Data.MongoDB.pdb
 D:\Topmotive\Ziua4\BookStore\BookStore\bin\Debug\net8.0\BookStore.Repositories.dll
 D:\Topmotive\Ziua4\BookStore\BookStore\bin\Debug\net8.0\BookStore.Repositories.pdb
+D:\Topmotive\Ziua4\BookStore\BookStore\obj\Debug\net8.0\BookStore.sourcelink.json
+D:\Topmotive\Ziua4\BookStore\BookStore\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Topmotive\Ziua4\BookStore\BookStore\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Topmotive\Ziua4\BookStore\BookStore\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Topmotive\Ziua4\BookStore\BookStore\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Topmotive\Ziua4\BookStore\BookStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Topmotive\Ziua4\BookStore\BookStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Topmotive\Ziua4\BookStore\BookStore\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Topmotive\Ziua4\BookStore\BookStore\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

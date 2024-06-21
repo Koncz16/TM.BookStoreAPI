@@ -15,3 +15,4 @@ D:\Topmotive\Ziua4\BookStore\BookStore.Repositories\obj\Debug\net8.0\BookStore.R
 D:\Topmotive\Ziua4\BookStore\BookStore.Repositories\obj\Debug\net8.0\refint\BookStore.Repositories.dll
 D:\Topmotive\Ziua4\BookStore\BookStore.Repositories\obj\Debug\net8.0\BookStore.Repositories.pdb
 D:\Topmotive\Ziua4\BookStore\BookStore.Repositories\obj\Debug\net8.0\ref\BookStore.Repositories.dll
+D:\Topmotive\Ziua4\BookStore\BookStore.Repositories\obj\Debug\net8.0\BookStore.Repositories.sourcelink.json

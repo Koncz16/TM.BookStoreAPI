@@ -15,3 +15,4 @@ D:\Topmotive\Ziua4\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Ap
 D:\Topmotive\Ziua4\BookStore\BookStore.Application\obj\Debug\net8.0\ref\BookStore.Application.dll
 D:\Topmotive\Ziua4\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Data.Abstraction.dll
 D:\Topmotive\Ziua4\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Data.Abstraction.pdb
+D:\Topmotive\Ziua4\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.sourcelink.json
