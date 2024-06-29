@@ -1,4 +1,5 @@
 ﻿using BookStore.Domain;
+using BookStore.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,8 @@ namespace BookStore.Data.Abstraction
     public interface IUserRepository : IRepository<User>
     {
         public Task<User> GetByNameAsync(string username, CancellationToken cancellationToken);
-
+        public Task UpdateRefreshTokenAsync(string userId, string refreshToken, DateTime refreshTokenExpiryTime, CancellationToken cancellationToken);
+        public  Task<User> GetByRefreshTokenAsync(string refreshToken, CancellationToken cancellationToken);
 
     }
 }

@@ -120,3 +120,4 @@ D:\Topmotive\Ziua4\BookStore\BookStore.Tests\obj\Debug\net8.0\refint\BookStore.T
 D:\Topmotive\Ziua4\BookStore\BookStore.Tests\obj\Debug\net8.0\BookStore.Tests.pdb
 D:\Topmotive\Ziua4\BookStore\BookStore.Tests\obj\Debug\net8.0\BookStore.Tests.genruntimeconfig.cache
 D:\Topmotive\Ziua4\BookStore\BookStore.Tests\obj\Debug\net8.0\ref\BookStore.Tests.dll
+D:\Topmotive\Ziua4\BookStore\BookStore.Tests\obj\Debug\net8.0\BookStore.Tests.sourcelink.json

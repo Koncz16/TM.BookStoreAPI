@@ -1,6 +1,7 @@
 using BookStore.Data.Abstraction;
 using BookStore.Data.MongoDB;
 using BookStore.Repositories;
+using BookStore.Services;
 using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -81,6 +82,8 @@ internal class Program
         );
 
         builder.Services.AddTransient<IUserRepository, UserRepository>();
+        builder.Services.AddScoped<UserService>();
+
 
         var app = builder.Build();
 

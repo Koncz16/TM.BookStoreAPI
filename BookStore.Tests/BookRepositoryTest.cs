@@ -1,6 +1,7 @@
 ﻿using BookStore.Data.Abstraction;
 using BookStore.Data.MongoDB;
 using BookStore.Domain;
+using BookStore.Domain.Models;
 using BookStore.Repositories;
 using System;
 using System.Collections.Generic;

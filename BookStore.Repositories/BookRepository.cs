@@ -1,5 +1,6 @@
 ﻿using BookStore.Data.Abstraction;
 using BookStore.Domain;
+using BookStore.Domain.Models;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using System;
@@ -45,15 +46,17 @@ namespace BookStore.Repositories
             // Error: Cannot deserialize a 'String' from BsonType 'ObjectId'.
 
             var filter = Builders<Book>.Filter.Empty;
-            var result = await this.books.Find(filter).ToListAsync(cancellationToken);
+            var result = await this.books.Find(filter).Limit(10).ToListAsync(cancellationToken);
             return result;
 
         }
 
         public async Task<Book> GetByIdAsync(string id, CancellationToken cancellationToken)
         {
+            var objectId = new ObjectId(id);
+
             var filter = Builders<Book>.Filter.Eq(book => book.Id,id);
-            var book = await this.books.Find(filter).FirstOrDefaultAsync(cancellationToken);
+            var book = await this.books.Find(filter).FirstAsync(cancellationToken);
             return book;
         }
 

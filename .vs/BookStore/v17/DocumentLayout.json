@@ -3,40 +3,24 @@
   "WorkspaceRootPath": "D:\\Topmotive\\Ziua4\\BookStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1936C67-95E9-4885-A50B-E02638A4F03C}|BookStore.Repositories\\BookStore.Repositories.csproj|d:\\topmotive\\ziua4\\bookstore\\bookstore.repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1936C67-95E9-4885-A50B-E02638A4F03C}|BookStore.Repositories\\BookStore.Repositories.csproj|solutionrelative:bookstore.repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{664B97E7-26E0-430A-94FB-03FB65377D58}|BookStore.Application\\BookStore.Application.csproj|d:\\topmotive\\ziua4\\bookstore\\bookstore.application\\users\\authenticateuser\\authenticateuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{664B97E7-26E0-430A-94FB-03FB65377D58}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\users\\authenticateuser\\authenticateuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1936C67-95E9-4885-A50B-E02638A4F03C}|BookStore.Repositories\\BookStore.Repositories.csproj|d:\\topmotive\\ziua4\\bookstore\\bookstore.repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1936C67-95E9-4885-A50B-E02638A4F03C}|BookStore.Repositories\\BookStore.Repositories.csproj|solutionrelative:bookstore.repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{664B97E7-26E0-430A-94FB-03FB65377D58}|BookStore.Application\\BookStore.Application.csproj|d:\\topmotive\\ziua4\\bookstore\\bookstore.application\\users\\refreshtoken\\refreshtokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{664B97E7-26E0-430A-94FB-03FB65377D58}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\users\\refreshtoken\\refreshtokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1722EA2-AF85-41A5-8267-AAE371FC3E98}|BookStore.Domain\\BookStore.Domain.csproj|d:\\topmotive\\ziua4\\bookstore\\bookstore.domain\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1722EA2-AF85-41A5-8267-AAE371FC3E98}|BookStore.Domain\\BookStore.Domain.csproj|solutionrelative:bookstore.domain\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{664B97E7-26E0-430A-94FB-03FB65377D58}|BookStore.Application\\BookStore.Application.csproj|d:\\topmotive\\ziua4\\bookstore\\bookstore.application\\helper\\hashhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{664B97E7-26E0-430A-94FB-03FB65377D58}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\helper\\hashhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1722EA2-AF85-41A5-8267-AAE371FC3E98}|BookStore.Domain\\BookStore.Domain.csproj|d:\\topmotive\\ziua4\\bookstore\\bookstore.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1722EA2-AF85-41A5-8267-AAE371FC3E98}|BookStore.Domain\\BookStore.Domain.csproj|solutionrelative:bookstore.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{664B97E7-26E0-430A-94FB-03FB65377D58}|BookStore.Application\\BookStore.Application.csproj|d:\\topmotive\\ziua4\\bookstore\\bookstore.application\\users\\registeruser\\registeruserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{664B97E7-26E0-430A-94FB-03FB65377D58}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\users\\registeruser\\registeruserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CFDFAD0-6D0A-4D21-88CB-65CE50068CB3}|BookStore\\BookStore.csproj|d:\\topmotive\\ziua4\\bookstore\\bookstore\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CFDFAD0-6D0A-4D21-88CB-65CE50068CB3}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DF19457-FF84-48B0-A08E-0BDA7568F430}|BookStore.Data.MongoDB\\BookStore.Data.MongoDB.csproj|d:\\topmotive\\ziua4\\bookstore\\bookstore.data.mongodb\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DF19457-FF84-48B0-A08E-0BDA7568F430}|BookStore.Data.MongoDB\\BookStore.Data.MongoDB.csproj|solutionrelative:bookstore.data.mongodb\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0B73822-D1DA-4AAF-A8A1-57CB982ED861}|BookStore.Data.Abstraction\\BookStore.Data.Abstraction.csproj|d:\\topmotive\\ziua4\\bookstore\\bookstore.data.abstraction\\idatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0B73822-D1DA-4AAF-A8A1-57CB982ED861}|BookStore.Data.Abstraction\\BookStore.Data.Abstraction.csproj|solutionrelative:bookstore.data.abstraction\\idatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CFDFAD0-6D0A-4D21-88CB-65CE50068CB3}|BookStore\\BookStore.csproj|d:\\topmotive\\ziua4\\bookstore\\bookstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2CFDFAD0-6D0A-4D21-88CB-65CE50068CB3}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CFDFAD0-6D0A-4D21-88CB-65CE50068CB3}|BookStore\\BookStore.csproj|d:\\topmotive\\ziua4\\bookstore\\bookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CFDFAD0-6D0A-4D21-88CB-65CE50068CB3}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,20 +30,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 364,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BookRepository.cs",
-              "DocumentMoniker": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Repositories\\BookRepository.cs",
-              "RelativeDocumentMoniker": "BookStore.Repositories\\BookRepository.cs",
-              "ToolTip": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Repositories\\BookRepository.cs",
-              "RelativeToolTip": "BookStore.Repositories\\BookRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAADYAAAAAAAAA",
+              "Title": "RefreshTokenHandler.cs",
+              "DocumentMoniker": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Application\\Users\\RefreshToken\\RefreshTokenHandler.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Users\\RefreshToken\\RefreshTokenHandler.cs",
+              "ToolTip": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Application\\Users\\RefreshToken\\RefreshTokenHandler.cs",
+              "RelativeToolTip": "BookStore.Application\\Users\\RefreshToken\\RefreshTokenHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T23:39:15.121Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-06-29T23:19:01.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HashHelper.cs",
+              "DocumentMoniker": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Application\\Helper\\HashHelper.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Helper\\HashHelper.cs",
+              "ToolTip": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Application\\Helper\\HashHelper.cs",
+              "RelativeToolTip": "BookStore.Application\\Helper\\HashHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T23:18:12.498Z",
               "EditorCaption": ""
             },
             {
@@ -69,40 +65,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "BookStore.Repositories\\UserRepository.cs",
-              "ToolTip": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Repositories\\UserRepository.cs",
-              "RelativeToolTip": "BookStore.Repositories\\UserRepository.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAiwDUAAAAiAAAA",
+              "Title": "AuthenticateUserHandler.cs",
+              "DocumentMoniker": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Application\\Users\\AuthenticateUser\\AuthenticateUserHandler.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Users\\AuthenticateUser\\AuthenticateUserHandler.cs",
+              "ToolTip": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Application\\Users\\AuthenticateUser\\AuthenticateUserHandler.cs",
+              "RelativeToolTip": "BookStore.Application\\Users\\AuthenticateUser\\AuthenticateUserHandler.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAwCUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T23:39:15.869Z",
+              "WhenOpened": "2024-06-29T23:16:53.655Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Database.cs",
-              "DocumentMoniker": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Data.MongoDB\\Database.cs",
-              "RelativeDocumentMoniker": "BookStore.Data.MongoDB\\Database.cs",
-              "ToolTip": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Data.MongoDB\\Database.cs",
-              "RelativeToolTip": "BookStore.Data.MongoDB\\Database.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "RegisterUserHandler.cs",
+              "DocumentMoniker": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Application\\Users\\RegisterUser\\RegisterUserHandler.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Users\\RegisterUser\\RegisterUserHandler.cs",
+              "ToolTip": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Application\\Users\\RegisterUser\\RegisterUserHandler.cs",
+              "RelativeToolTip": "BookStore.Application\\Users\\RegisterUser\\RegisterUserHandler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T00:15:06.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IDatabase.cs",
-              "DocumentMoniker": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Data.Abstraction\\IDatabase.cs",
-              "RelativeDocumentMoniker": "BookStore.Data.Abstraction\\IDatabase.cs",
-              "ToolTip": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Data.Abstraction\\IDatabase.cs",
-              "RelativeToolTip": "BookStore.Data.Abstraction\\IDatabase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T00:14:55.696Z",
+              "WhenOpened": "2024-06-29T23:13:21.257Z",
               "EditorCaption": ""
             },
             {
@@ -113,61 +96,9 @@
               "RelativeDocumentMoniker": "BookStore\\Controllers\\UsersController.cs",
               "ToolTip": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore\\Controllers\\UsersController.cs",
               "RelativeToolTip": "BookStore\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAowDAAAABGAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAhwD4AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T23:54:31.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore\\Program.cs",
-              "RelativeDocumentMoniker": "BookStore\\Program.cs",
-              "ToolTip": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore\\Program.cs",
-              "RelativeToolTip": "BookStore\\Program.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAkwCQAAABcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T23:50:28.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore\\appsettings.json",
-              "RelativeDocumentMoniker": "BookStore\\appsettings.json",
-              "ToolTip": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore\\appsettings.json",
-              "RelativeToolTip": "BookStore\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-20T23:48:20.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Book.cs",
-              "DocumentMoniker": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Domain\\Book.cs",
-              "RelativeDocumentMoniker": "BookStore.Domain\\Book.cs",
-              "ToolTip": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Domain\\Book.cs",
-              "RelativeToolTip": "BookStore.Domain\\Book.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T23:45:54.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Domain\\User.cs",
-              "RelativeDocumentMoniker": "BookStore.Domain\\User.cs",
-              "ToolTip": "D:\\Topmotive\\Ziua4\\BookStore\\BookStore.Domain\\User.cs",
-              "RelativeToolTip": "BookStore.Domain\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T23:45:53.277Z",
+              "WhenOpened": "2024-06-29T23:11:43.773Z",
               "EditorCaption": ""
             }
           ]

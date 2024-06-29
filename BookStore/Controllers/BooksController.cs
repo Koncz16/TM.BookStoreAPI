@@ -1,10 +1,10 @@
-﻿using BookStore.Application.DeleteBookById;
-using BookStore.Application.GetAllBooks;
-using BookStore.Application.GetBookById;
-using BookStore.Application.GetWeatherForecast;
-using BookStore.Application.InsertBook;
-using BookStore.Application.UpdateBook;
+﻿using BookStore.Application.Books.DeleteBookById;
+using BookStore.Application.Books.GetAllBooks;
+using BookStore.Application.Books.GetBookById;
+using BookStore.Application.Books.InsertBook;
+using BookStore.Application.Books.UpdateBook;
 using BookStore.Domain;
+using BookStore.Domain.Models;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 

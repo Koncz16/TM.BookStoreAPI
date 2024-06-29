@@ -1,5 +1,6 @@
 ﻿using BookStore.Data.Abstraction;
 using BookStore.Domain;
+using BookStore.Domain.Models;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
@@ -38,9 +39,10 @@ namespace BookStore.Repositories
             return user;
         }
 
-        public Task<string> InsertAsync(User item, CancellationToken cancellationToken)
+        public async Task<string> InsertAsync(User user, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            await this.users.InsertOneAsync(user, new InsertOneOptions(), cancellationToken);
+            return user.Id;
         }
 
         public Task<bool> UdpateAsync(User item, CancellationToken cancellationToken)
@@ -60,5 +62,22 @@ namespace BookStore.Repositories
 
             return user;        
         }
+
+
+        public async Task UpdateRefreshTokenAsync(string userId, string refreshToken, DateTime refreshTokenExpiryTime, CancellationToken cancellationToken)
+        {
+            var filter = Builders<User>.Filter.Eq(u => u.Id, userId);
+            var update = Builders<User>.Update
+                .Set(u => u.RefreshToken, refreshToken)
+                .Set(u => u.RefreshTokenExpiryTime, refreshTokenExpiryTime);
+
+            await users.UpdateOneAsync(filter, update, null, cancellationToken);
+        }
+
+        public async Task<User> GetByRefreshTokenAsync(string refreshToken, CancellationToken cancellationToken)
+        {
+            return await users.Find(u => u.RefreshToken == refreshToken).SingleOrDefaultAsync(cancellationToken);
+        }
+
     }
 }

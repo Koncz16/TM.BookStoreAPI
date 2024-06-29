@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using BookStore.Data.Abstraction;
 using BookStore.Domain;
+using BookStore.Domain.Models;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.IdGenerators;
@@ -20,6 +21,8 @@ namespace BookStore.Data.MongoDB
 
         public Database(IDatabaseConfiguration configuration)
         {
+            this.RegisterCustomMappings();
+
             this.client = new MongoClient(configuration.ConnectionString);
             this.db = this.client.GetDatabase(configuration.DatabaseName);
 
@@ -42,16 +45,16 @@ namespace BookStore.Data.MongoDB
                 {
                     cm.AutoMap();
                     cm.MapMember(book => book.PublisherId)
-                     .SetIdGenerator(new StringObjectIdGenerator())
-                     .SetIdGenerator(new ObjectIdGenerator())
-                     .SetSerializer(new StringSerializer(BsonType.ObjectId));
+                    .SetIdGenerator(new StringObjectIdGenerator())
+                    .SetIdGenerator(new ObjectIdGenerator())
+                    .SetSerializer(new StringSerializer(BsonType.ObjectId));
                     cm.MapMember(book => book.AuthorId)
                     .SetIdGenerator(new StringObjectIdGenerator())
                     .SetIdGenerator(new ObjectIdGenerator())
                     .SetSerializer(new StringSerializer(BsonType.ObjectId));
-                    cm.MapIdMember(book => book.Id).
-                    SetIdGenerator(new StringObjectIdGenerator()).
-                    SetSerializer(new StringSerializer(BsonType.ObjectId));
+                    cm.MapIdMember(book => book.Id)
+                    .SetIdGenerator(new StringObjectIdGenerator())
+                    .SetSerializer(new StringSerializer(BsonType.ObjectId));
                     cm.SetIgnoreExtraElements(true);
                 });
             }
@@ -61,11 +64,48 @@ namespace BookStore.Data.MongoDB
                 {
                     cm.AutoMap();
                     cm.MapIdMember(user => user.Id)
-                      .SetIdGenerator(new StringObjectIdGenerator())
+                      .SetIdGenerator(StringObjectIdGenerator.Instance)
                       .SetSerializer(new StringSerializer(BsonType.ObjectId));
                     cm.SetIgnoreExtraElements(true);
                 });
             }
         }
+
+
+
+
+        //private void RegisterCustomMappings()
+        //{
+        //    if (!BsonClassMap.IsClassMapRegistered(typeof(Book)))
+        //    {
+        //        BsonClassMap.RegisterClassMap<Book>(cm =>
+        //        {
+        //            cm.AutoMap();
+        //            cm.MapMember(book => book.PublisherId)
+        //             .SetIdGenerator(new StringObjectIdGenerator())
+        //             .SetIdGenerator(new ObjectIdGenerator())
+        //             .SetSerializer(new StringSerializer(BsonType.ObjectId));
+        //            cm.MapMember(book => book.AuthorId)
+        //            .SetIdGenerator(new StringObjectIdGenerator())
+        //            .SetIdGenerator(new ObjectIdGenerator())
+        //            .SetSerializer(new StringSerializer(BsonType.ObjectId));
+        //            cm.MapIdMember(book => book.Id).
+        //            SetIdGenerator(new StringObjectIdGenerator()).
+        //            SetSerializer(new StringSerializer(BsonType.ObjectId));
+        //            cm.SetIgnoreExtraElements(true);
+        //        });
+        //    }
+        //    //if (!BsonClassMap.IsClassMapRegistered(typeof(User)))
+        //    //{
+        //    //    BsonClassMap.RegisterClassMap<User>(cm =>
+        //    //    {
+        //    //        cm.AutoMap();
+        //    //        cm.MapIdMember(user => user.Id)
+        //    //          .SetIdGenerator(new StringObjectIdGenerator())
+        //    //          .SetSerializer(new StringSerializer(BsonType.ObjectId));
+        //    //        cm.SetIgnoreExtraElements(true);
+        //    //    });
+        //    //}
+        //}
     }
 }

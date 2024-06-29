@@ -1,6 +1,9 @@
 ﻿using Amazon.Runtime.Credentials.Internal;
-using BookStore.Application.GetBookById;
-using BookStore.Application.GetUserByName;
+using BookStore.Application.Users.AuthenticateUser;
+using BookStore.Application.Users.GetUserByName;
+using BookStore.Application.Users.RefreshToken;
+using BookStore.Application.Users.RegisterUser;
+using BookStore.Services;
 using MediatR;
 using Microsoft.AspNetCore.DataProtection.KeyManagement;
 using Microsoft.AspNetCore.Mvc;
@@ -17,6 +20,7 @@ namespace BookStore.Controllers
     public class UsersController :ControllerBase
     {
         private readonly IMediator mediator;
+        private readonly UserService userService;
 
         private readonly SymmetricSecurityKey key;
         private readonly TokenValidationParameters tokenValidationParameters;
@@ -24,9 +28,29 @@ namespace BookStore.Controllers
         public UsersController(IMediator mediator)
         {
             this.mediator = mediator;
-            key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7"));
+            this.userService = userService;
 
         }
+
+        [HttpPost("register")]
+        public async Task<IActionResult> Register([FromBody] RegisterUserRequest request)
+        {
+            var response = await mediator.Send(request);
+            if (!response.IsSuccessful)
+            {
+                if (!string.IsNullOrEmpty(response.ErrorMessage))
+                {
+                    return BadRequest(new { Message = response.ErrorMessage });
+                }
+                else
+                {
+                    return BadRequest(new { Message = "Registration failed" });
+                }
+            }
+
+            return Ok(new { Message = "Registration successful" });
+        }
+
 
         [HttpGet("GetUser/{name}/{password}")]
         public async Task<IActionResult> GetUserByName(string name, string password, CancellationToken cancellationToken)
@@ -44,30 +68,29 @@ namespace BookStore.Controllers
 
 
         [HttpPost("authenticate")]
-        public IActionResult Authenticate(string username, string password)
+        public async Task<IActionResult> Authenticate([FromBody] AuthenticateUserRequest request, CancellationToken cancellationToken)
         {
-            //var user = userService.Authenticate(username, password);
-
-            //if (user == null)
-            //    return Unauthorized();
-
-            var tokenHandler = new JwtSecurityTokenHandler();
-            var tokenDescriptor = new SecurityTokenDescriptor
+            var response = await mediator.Send(request, cancellationToken);
+            if (!response.IsSuccessful)
             {
-                Subject = new ClaimsIdentity(new Claim[]
-                {
-                new Claim(ClaimTypes.Name, username),
-                }),
-                Expires = DateTime.UtcNow.AddMinutes(30),
-                SigningCredentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256Signature)
-            };
-            var token = tokenHandler.CreateToken(tokenDescriptor);
+                return Unauthorized(new { Message = "Invalid credentials" });
+            }
 
-            var response = new JwtSecurityTokenHandler().WriteToken(token);
+            return Ok(response.TokenDTO);
+        }
 
 
-            return Ok(new { token = response });
+        [HttpPost("refresh")]
+        public async Task<IActionResult> RefreshToken([FromBody] RefreshTokenRequest refreshTokenRequest, CancellationToken cancellationToken)
+        {
+            var response = await mediator.Send(refreshTokenRequest, cancellationToken);
+            if (!response.IsSuccessful)
+            {
+                return Unauthorized(new { Message = "Invalid refresh token" });
+            }
 
+            return Ok(new { AccessToken = response.AccessToken });
         }
     }
+
 }
