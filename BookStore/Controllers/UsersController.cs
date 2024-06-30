@@ -1,16 +1,21 @@
 ﻿using Amazon.Runtime.Credentials.Internal;
+using BookStore.Application.Users.AddBookToUser;
 using BookStore.Application.Users.AuthenticateUser;
 using BookStore.Application.Users.GetUserByName;
 using BookStore.Application.Users.RefreshToken;
 using BookStore.Application.Users.RegisterUser;
 using BookStore.Services;
 using MediatR;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.DataProtection.KeyManagement;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using BookStore.Application.Users.GetUserBooks;
 
 namespace BookStore.Controllers
 {
@@ -52,19 +57,19 @@ namespace BookStore.Controllers
         }
 
 
-        [HttpGet("GetUser/{name}/{password}")]
-        public async Task<IActionResult> GetUserByName(string name, string password, CancellationToken cancellationToken)
-        {
-            var request = new GetUserByNameRequest { Name = name,Password= password };
-            var response = await this.mediator.Send(request, cancellationToken);
+        //[HttpGet("GetUser/{name}/{password}")]
+        //public async Task<IActionResult> GetUserByName(string name, string password, CancellationToken cancellationToken)
+        //{
+        //    var request = new GetUserByNameRequest { Name = name,Password= password };
+        //    var response = await this.mediator.Send(request, cancellationToken);
 
-            if (response == null)
-            {
-                return NotFound();
-            }
+        //    if (response == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            return Ok(response);
-        }
+        //    return Ok(response);
+        //}
 
 
         [HttpPost("authenticate")]
@@ -91,6 +96,50 @@ namespace BookStore.Controllers
 
             return Ok(new { AccessToken = response.AccessToken });
         }
+
+
+        [HttpPost("addbook")]
+        public async Task<IActionResult> AddBookToUser([FromBody] AddBookToUserRequest request)
+        {
+            try
+            {
+
+                var response = await mediator.Send(request);
+
+                if (!response.IsSuccessful)
+                {
+                    if (!string.IsNullOrEmpty(response.ErrorMessage))
+                    {
+                        return BadRequest(new { Message = response.ErrorMessage });
+                    }
+                    else
+                    {
+                        return BadRequest(new { Message = "Failed to add book to user" });
+                    }
+                }
+
+                return Ok(new { Message = "Book added to user successfully" });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Message = "Internal server error", Error = ex.Message });
+            }
+        }
+
+        [HttpGet("books/{username}")]
+        public async Task<IActionResult> GetUserBooks(string username)
+        {
+            var request = new GetUserBooksRequest { Username = username };
+            var response = await mediator.Send(request);
+
+            if (!response.IsSuccessful)
+            {
+                return BadRequest(new { Message = response.ErrorMessage });
+            }
+
+            return Ok(new { Books = response.Books });
+        }
+
     }
 
 }

@@ -49,6 +49,7 @@ namespace BookStore.Repositories
         {
             throw new NotImplementedException();
         }
+
         public async Task<User> GetByNameAsync(string username, CancellationToken cancellationToken)
         {
             var filter = Builders<User>.Filter.Eq(User  => User.Name, username);
@@ -78,6 +79,29 @@ namespace BookStore.Repositories
         {
             return await users.Find(u => u.RefreshToken == refreshToken).SingleOrDefaultAsync(cancellationToken);
         }
+
+
+        public async Task<bool> AddBookToUserAsync(User user, CancellationToken cancellationToken)
+        {
+       
+
+            var filter = Builders<User>.Filter.Eq(user => user.Id, user.Id);
+            var updateResult = await this.users.ReplaceOneAsync(filter, user, new ReplaceOptions(), cancellationToken);
+            return updateResult.ModifiedCount > 0;
+
+        }
+
+        public async Task<List<string>> GetUserBooks(string username, CancellationToken cancellationToken)
+        {
+            {
+                var filter = Builders<User>.Filter.Eq(u => u.Name, username);
+                var user = await users.Find(filter).FirstOrDefaultAsync();
+
+                var  books = user.Books.ToList();
+                return books;
+            }
+        }
+
 
     }
 }

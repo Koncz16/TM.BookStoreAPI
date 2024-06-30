@@ -73,5 +73,13 @@ namespace BookStore.Repositories
             var updateResult = await this.books.ReplaceOneAsync(filter, item, new ReplaceOptions(), cancellationToken);
             return updateResult.ModifiedCount > 0;
         }
+
+        public async Task<List<Book>> GetBooksByIdsAsync(List<string> bookIds, CancellationToken cancellationToken)
+        {
+            var filter = Builders<Book>.Filter.In(book => book.Id, bookIds);
+            var result = await books.Find(filter).ToListAsync(cancellationToken);
+            return result;
+        }
+
     }
 }
