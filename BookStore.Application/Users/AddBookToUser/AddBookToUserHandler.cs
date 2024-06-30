@@ -29,7 +29,7 @@ namespace BookStore.Application.Users.AddBookToUser
 
                 user.Books.Add(request.BookId);
 
-                // Mentés az adatbázisba
+                // 
                 await userRepository.AddBookToUserAsync(user, cancellationToken);
 
                 return new AddBookToUserResponse { IsSuccessful = true };

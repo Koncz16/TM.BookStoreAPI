@@ -82,7 +82,9 @@ internal class Program
         );
 
         builder.Services.AddTransient<IUserRepository, UserRepository>();
+        builder.Services.AddTransient<IHomeworkRepository,  HomeworkRepository>();
         builder.Services.AddScoped<UserService>();
+
 
 
         var app = builder.Build();

@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using BookStore.Data.Abstraction;
 using BookStore.Domain;
+using BookStore.Domain.DTOs;
 using BookStore.Domain.Models;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
@@ -69,7 +70,32 @@ namespace BookStore.Data.MongoDB
                     cm.SetIgnoreExtraElements(true);
                 });
             }
-        }
+            if (!BsonClassMap.IsClassMapRegistered(typeof(BookOutDto)))
+            {
+                BsonClassMap.RegisterClassMap<BookOutDto>(cm =>
+                {
+                    cm.AutoMap();
+                    cm.MapIdMember(book => book.Id)
+                      .SetIdGenerator(StringObjectIdGenerator.Instance)
+                      .SetSerializer(new StringSerializer(BsonType.ObjectId));
+                    cm.SetIgnoreExtraElements(true);
+                });
+            }
+
+            if (!BsonClassMap.IsClassMapRegistered(typeof(AuthorDto)))
+            {
+                BsonClassMap.RegisterClassMap<AuthorDto>(cm =>
+                {
+                    cm.AutoMap();
+                    cm.MapIdMember(author => author.Name)
+                      .SetSerializer(new StringSerializer(BsonType.String));
+                    cm.SetIgnoreExtraElements(true);
+                });
+            }
+
+
+
+            }
 
 
 
